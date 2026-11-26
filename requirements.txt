@@ -1,0 +1,9 @@
+# WeDoSimplify — Python/GCP template
+# Install: pip install -r requirements.txt
+# Python 3.11 or 3.12
+
+pandas>=2.0
+openpyxl>=3.1
+google-cloud-bigquery>=3.0
+google-cloud-functions>=1.0
+streamlit>=1.30

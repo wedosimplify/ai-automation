@@ -1,0 +1,21 @@
+# Secrets — NEVER commit these
+.env
+*.json
+service-account*.json
+*-key.json
+credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Client data — NEVER commit a client's export
+*.xlsx
+*.csv
+!sample-data.csv
+client-exports/
+
+# Streamlit / local
+.streamlit/secrets.toml
